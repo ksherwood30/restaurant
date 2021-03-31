@@ -1,0 +1,37 @@
+$mainColor: #8000ff;
+$secondColor: gold;
+ 
+.jumbotron{
+  background-color: $mainColor;
+  color: white !important;
+}
+
+footer{
+  text-align: center;
+}
+
+.navbarColor{
+  background-color: $mainColor !important;
+  padding-left: 3%;
+  a{
+    color: white !important;
+    border: solid $mainColor 1pt;
+    box-shadow: 4px 4px $mainColor;
+    &.logo{
+      // font-family: impact;
+      font-weight: bold;
+      text-decoration: underline $secondColor !important;
+    }
+
+    &:hover{
+      border: solid white 1pt;
+      box-shadow: 4px 4px grey;
+    }
+  }
+  
+}
+
+.navbar-toggler{
+  border-color: black !important;
+}
+

@@ -1,0 +1,82 @@
+@import "App";
+
+
+.card{
+    border: 2px solid $mainColor !important;
+    height: 100%;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.space-out{
+    margin-top: 3% !important;
+    margin-bottom: 3%;
+}
+
+.card-img-top{
+    height: 300px !important;
+}
+
+.enlarge:hover{
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.divTop{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    // height: 100%;
+}
+.toppings{
+    width: 100%;
+    // height: 100%;
+    background-color: white;
+    border-color: $mainColor !important;
+    color: $mainColor !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+    &:hover{
+        background-color: $mainColor !important;
+        color: white !important;
+    }
+
+    &.active{
+        background-color:$mainColor !important;
+        color: white !important;
+    }
+}
+
+.menuPadding{
+    padding-bottom: 3%;
+    margin: auto !important;
+}
+
+.cntrMenuPadd{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.btn-gold{
+    background-color: $secondColor !important;
+    color: black !important
+}
+
+.cntrText{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cartBtn{
+    width: 25%;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    width: 85% !important
+    
+    
+}

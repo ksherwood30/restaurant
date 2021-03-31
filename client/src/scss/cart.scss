@@ -1,0 +1,22 @@
+@import "App";
+
+.cartBorder{
+    border: solid $secondColor 2pt;
+    width: 100%;
+    border-radius: .25rem;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.bottomBorder{
+    border-bottom: solid $secondColor 2pt;
+    padding-top: 5%;
+}
+
+.cartItem{
+    color: $mainColor;
+    text-align: center;
+}
+
