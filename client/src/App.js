@@ -11,7 +11,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    // <Router>
       <div className="App">
         <Navbar/>
         <Route exact path="/" component={Landing}/>
@@ -24,7 +24,7 @@ function App() {
         <Route path="/sides" render={(props) => <Centermenu page="sides" {...props} />}/> */}
         <Footer/>      
       </div>
-    </Router>
+    // </Router>
     
   );
 }
