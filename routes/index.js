@@ -27,7 +27,7 @@ router.get("/pizza", function(req, res){
 			console.log("error");
 		}
 		else{
-			res.send(allPizza);
+			res.json(allPizza);
 		}
 		} );
 });
