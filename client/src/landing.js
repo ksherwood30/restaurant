@@ -1,13 +1,11 @@
 import React from 'react';
-import  {Coupons} from './components/coupons';
 // import './App.scss'; 
 import './scss/landing.scss'; 
 import pizza from './images/pizza.jpg';
 import burger from './images/burger.jpg';
 import wings from './images/wings.jpg';
 import pasta from './images/pasta.jpg';
-import tacos from './images/tacos.jpg';
-import sides from './images/sides.jpg';
+import {Link} from 'react-router-dom';
 
 export class Landing extends React.Component {    
 
@@ -19,7 +17,7 @@ export class Landing extends React.Component {
             <div className="container" >                
                 <div className="row space-out"> 
                     <div className="col-md-6 divTop">
-                        <a href="/pizza" className="">
+                        <Link to="/pizza" className="">
                             <div className="card enlarge" >
                                 <img className="card-img-top" src={pizza} alt="pizza "/>
                                 <div className="card-body">
@@ -27,11 +25,11 @@ export class Landing extends React.Component {
                                     <p className="card-text">Cheesy, melty, tasty. Never a bad time for some pizza</p>                                
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                         
                     </div>
                     <div className="col-md-6 divTop">
-                        <a href="/burgers">
+                        <Link to="/burgers">
                             <div className="card enlarge" >
                                 <img className="card-img-top" src={burger} alt="burger"/>
                                 <div className="card-body">
@@ -40,14 +38,14 @@ export class Landing extends React.Component {
                                     {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                         
                     </div>
                     
                 </div>
                 <div className="row space-out">
                     <div className="col-md-6 divTop">
-                        <a href="/wings">
+                        <Link to="/wings">
                             <div className="card enlarge">
                                 <img className="card-img-top" src={wings} alt="wings"/>
                                 <div className="card-body">
@@ -56,10 +54,10 @@ export class Landing extends React.Component {
                                     {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div> 
                     <div className="col-md-6 divTop">
-                        <a href="/pasta">
+                        <Link to="/pasta">
                             <div className="card enlarge" >
                                 <img className="card-img-top" src={pasta} alt="pasta "/>
                                 <div className="card-body">
@@ -68,7 +66,7 @@ export class Landing extends React.Component {
                                     {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                                 </div>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
