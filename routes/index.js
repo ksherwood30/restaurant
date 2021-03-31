@@ -19,9 +19,7 @@ var Sides = require("../models/sidesModel");
 // 			console.log(newBlogs)		}
 // 	});
 
-router.get("/", function(req, res){	
-	res.send("hello");
-});
+
 // Pizza page route
 router.get("/pizza", function(req, res){	
 	Pizza.find({}, function(err, allPizza){
