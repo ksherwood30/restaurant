@@ -15,11 +15,11 @@ function App() {
       <div className="App">
         <Navbar/>
         <Route exact path="/" component={Landing}/>
-        <Route path="/pizza"  render={(props) => <Centermenu page="pizza" {...props} />}/>
-        <Route path="/burgers" render={(props) => <Centermenu page="burgers" {...props} />}/>
-        <Route path="/wings" render={(props) => <Centermenu page="wings" {...props} />}/>
-        <Route path="/pasta" render={(props) => <Centermenu page="pasta" {...props} />}/>
-        <Route path="/checkout" component={Checkout}/>
+        <Route exact path="/pizza"  render={(props) => <Centermenu page="pizza" {...props} />}/>
+        <Route exact path="/burgers" render={(props) => <Centermenu page="burgers" {...props} />}/>
+        <Route exact path="/wings" render={(props) => <Centermenu page="wings" {...props} />}/>
+        <Route exact path="/pasta" render={(props) => <Centermenu page="pasta" {...props} />}/>
+        <Route exact path="/checkout" component={Checkout}/>
         {/* <Route path="/tacos" render={(props) => <Centermenu page="tacos" {...props} />}/>
         <Route path="/sides" render={(props) => <Centermenu page="sides" {...props} />}/> */}
         <Footer/>      
