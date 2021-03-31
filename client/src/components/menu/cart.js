@@ -115,7 +115,7 @@ export function Cart(props){
         ))
         
       )}
-      {/* {store.length !== 0 ? <div><Link to="/checkout" className=" toppings btn btn-gold" >Checkout</Link></div>: <div></div>}  */}
+      {store.length !== 0 ? <div><Link to="/checkout" className=" toppings btn btn-gold" >Checkout</Link></div>: <div></div>} 
       
       </div>
     </div>
