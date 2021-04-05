@@ -179,7 +179,7 @@ export  function Pizza({pizzaIngredients}){
                 <div className="row menuPadding"> {toppingItems}</div>
             </div>
             <div className="row">
-                <div className=" cartBtn"><button className="cartBtn toppings btn btn-gold" onClick={addItem}>Add to cart</button></div>                
+                <div className=" cartBtn"><button className=" toppings btn btn-gold" onClick={addItem}>Add to cart</button></div>                
               </div>
         </div>
       );
