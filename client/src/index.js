@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter} from 'react-router-dom'
 
 
 ReactDOM.render(
-  <HashRouter>   
+  <div>   
     <App />
-  </HashRouter>
+  </div>
  ,  document.getElementById('root')
 );
 

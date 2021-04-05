@@ -24,10 +24,10 @@ app.use("/", indexRoutes);
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
     // Set static folder
-    app.use(express.static('client/build'));
+    app.use(express.static(__dirname + '/public'));
   
     app.get('*', (req, res) => {
-      res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+      res.sendFile(path.resolve(__dirname, 'public', 'index.html'));
     });
   }
   else{
