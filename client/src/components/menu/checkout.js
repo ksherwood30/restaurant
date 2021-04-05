@@ -5,6 +5,7 @@ import pizza from '../../images/pizza.jpg';
 import burger from '../../images/burger.jpg';
 import wings from '../../images/wings.jpg';
 import pasta from '../../images/pasta.jpg';
+import {Link} from 'react-router-dom';
 // import { Burgers } from './burgers';
 
 export function Checkout(){    
@@ -104,29 +105,29 @@ export function Checkout(){
                 <div className="row">
                     <div className="col-md-6">
                         <h4 className="centerAlign">Pizza</h4>
-                        <a href="/pizza" className="">
+                        <Link to="/pizza" className="">
                             <img className="card-img-top" src={pizza} alt="pizza "/>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-md-6">
                         <h4 className="centerAlign">Burgers</h4>
-                        <a href="/burgers" className="">
+                        <Link to="/burgers" className="">
                             <img className="card-img-top" src={burger} alt="pizza "/>
-                        </a>
+                        </Link>
                     </div>        
                 </div>
                 <div className="row">
                     <div className="col-md-6">
                         <h4 className="centerAlign">Wings</h4>
-                        <a href="/wings" className="">
+                        <Link to="/wings" className="">
                             <img className="card-img-top" src={wings} alt="pizza "/>
-                        </a>
+                        </Link>
                     </div>
                     <div className="col-md-6 ">
                         <h4 className="centerAlign">Pasta</h4>
-                        <a href="/pasta" className="">
+                        <Link to="/pasta" className="">
                             <img className="card-img-top " src={pasta} alt="pizza "/>
-                        </a>
+                        </Link>
                     </div>      
                 </div>
                 
